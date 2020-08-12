@@ -25,6 +25,18 @@
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
   </head>
 
+  <style>
+    .container-video {
+      position: relative;
+      display: flex;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: -70px;
+      margin-top: 50px;
+      justify-content: center;
+    }
+  </style>
+
   <body>
     <!--[if lte IE 9]>
       <p class="browserupgrade">
@@ -115,25 +127,19 @@
     </div>
     <!-- slider_area_end -->
 
-    <!-- dream_service_start -->
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-2">
-          </div>
-          <div class="col-xl-8">
-            <iframe
-              width="800"
-              height="450"
-              src="https://www.youtube.com/embed/Kq-xBBheeB4"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="col-xl-2 center">
-            </div>
-          </div>
-        </div>
+    <div class="container-video">
+      <div class="row no-gutters">
+        <iframe
+          width="800"
+          height="450"
+          position="absolute"
+          src="https://www.youtube.com/embed/Kq-xBBheeB4"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
+    </div>
 
     <!-- about_area_start -->
     <div class="about_area">
@@ -269,18 +275,25 @@
                   </a>
                 </div>
                 <ul class="social_links">
-                        <center>
-                          <li>
-                              <a href="https://www.facebook.com/CUBalletEnsemble/"><i class="fa fa-facebook"></i></a>
-                          </li>
-                          <li>
-                              <a href="https://www.instagram.com/cuballetensemble/"><i class="fa fa-instagram"></i></a>
-                          </li>
-                          <li>
-                              <a href="https://www.youtube.com/channel/UCYsz3HvN3Z-yTJWETbKgYfA"><i class="fa fa-youtube-play"></i></a>
-                          </li>
-                        </center>
-                      </ul>
+                  <center>
+                    <li>
+                      <a href="https://www.facebook.com/CUBalletEnsemble/"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/cuballetensemble/"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/channel/UCYsz3HvN3Z-yTJWETbKgYfA"
+                        ><i class="fa fa-youtube-play"></i
+                      ></a>
+                    </li>
+                  </center>
+                </ul>
               </div>
             </div>
             <div class="col-xl-9 col-12 col-md-8">
